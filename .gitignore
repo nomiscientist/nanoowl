@@ -3,3 +3,5 @@ data
 *.pyc
 charmap.json.gz
 sandbox
+config.bat
+node_modules

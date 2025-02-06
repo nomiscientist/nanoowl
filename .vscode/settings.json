@@ -1,7 +1,16 @@
 {
-    "python.testing.pytestArgs": [
-        "test"
-    ],
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+  "python.testing.pytestArgs": [
+    "test"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "task.allowAutomaticTasks": true,
+  "debug.openDebug": "neverOpen",
+  "terminal.integrated.inheritEnv": false,
+  "tasks": {
+    "label": "lint on open",
+    "type": "shell",
+    "command": "npm run lint",
+    "runOn": "folderOpen"
+  }
 }
